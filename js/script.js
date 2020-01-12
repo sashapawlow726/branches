@@ -18,4 +18,3 @@ $('#burger').click(function(e){
 				   })
 	
 })
-
