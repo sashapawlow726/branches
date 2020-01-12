@@ -1,0 +1,635 @@
+////////////////////////
+
+
+////////////////////////
+body
+{
+	box-sizing: border-box;
+}
+#Wrapper
+{
+	width: 100%;
+	
+	
+}
+
+#Wrapper .Header
+{
+	background: #1f1f1f;
+}
+
+.Header .Header-Container
+{
+	max-width: 1140px;
+    margin: 0 auto;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+	align-items: center;
+	
+}
+
+.Header .Header-Container .RightBlock , .RightBlock-Help , .RightBlock-Registration
+{
+	display: flex;
+}
+
+.Header .LeftBlock , .Header .RightBlock
+{
+	width: 45%;
+	padding: 10px 0;
+}
+
+.Header .LeftBlock a
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+.Header .LeftBlock a::before
+{
+	content: "";
+	width: 23px;
+	height: 18px;
+	display: inline-block;
+	background: url(../img/flag_lang.png) no-repeat center center;
+	vertical-align: -4px;
+}
+
+.Header .RightBlock
+{
+	justify-content: flex-end;
+}
+
+.Header .RightBlock .RightBlock-Help
+{
+	
+	margin-right: 10px;
+}
+
+.Header .RightBlock .RightBlock-Help , .Header .RightBlock .RightBlock-Registration
+{
+	align-items: center;
+}
+
+.Header .RightBlock a
+{
+	text-decoration: none;
+	color: #fff;
+}
+
+.Header .RightBlock .RightBlock-Help .RightBlock-HelpIcon , .Header .RightBlock .RightBlock-Registration .RightBlock-Registration-RegIcon
+{
+	padding-right: 10px;
+}
+
+.section1
+{
+	padding: 30px 0;
+}
+
+.section1-container
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
+}
+
+.section1-container .NavClass a
+{
+	margin-right: 15px;
+}
+
+.section1-container .NavClass span
+{
+	margin-right: 30px;
+}
+
+/* section 2 */
+
+.section2
+{
+	background: url(../img/zakaz.png) no-repeat top center;
+	background-size: cover;
+}
+
+.section2 .MainBlock
+{
+	padding: 40px 0;
+}
+
+
+.MainBlock .MainBlock-Title
+{
+	font: 40px/40px "Myriad Pro";
+	color: #fff;
+	text-align: center;
+	
+}
+
+.MainBlock .MainBlock-Link a , .MainBlock .MainBlock-Link 
+{
+	
+	text-align: center;
+	color: #fff;
+}
+
+.section2 .MainBlock-Navigation
+{
+	display: flex;
+	background: rgba(67,55,61,0.5);
+	color: #fff;
+	font: 24px/24px "Myriad Pro";
+	justify-content: center;
+	padding: 10px 0;
+}
+
+.section2 .MainBlock-Navigation a
+{
+	color: #fff;
+    padding: 14px 23px;
+	border-bottom: 5px solid transparent;
+	text-decoration: none;
+}
+
+.section2 .MainBlock-Navigation a[data-item="0"]
+{
+	display: none;
+}
+
+.section2 .MainBlock-Navigation a:hover
+{
+	color: #f6dd3d;
+
+	border-bottom: 5px solid #f6dd3d;
+}
+
+.section3 h1
+{
+	font: 20px/20px "Myriad Pro";
+	font-weight: bold;
+	color: #000000;
+}
+
+.section3 .section3-blocks
+{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.section3 .section3-LeftBlock , .section3 .section3-CenterBlock , .section3 .section3-RightBlock
+{
+	box-sizing: border-box;
+	border: 3px solid #f6dd3d;
+	background: #f1f1f1;
+	margin: 50px 0;
+	
+	
+}
+
+.section3 .section3-LeftBlock , .section3 .section3-CenterBlock , .section3 .section3-RightBlock-info
+{
+	padding: 30px 25px;
+}
+
+.section3 .LeftBlock-Data .LeftBlock-Data__link
+{
+	color: #000;
+	text-decoration: underline;
+	font-style: italic;
+}
+
+.section3 .section3-RightBlock__button
+{
+	width: 100%;
+	padding: 10px;
+	background: #f6dd3d;
+	border: none;
+	
+
+}
+
+
+
+.section3 .section3-RightBlock__button-icon
+{
+	width: 21px;
+    height: 16px;
+   
+	
+}
+
+
+.section3 .section3-LeftBlock 
+{
+	width: 43%;
+}
+
+.section3 .section3-CenterBlock
+{
+	margin-left: 3%;
+	margin-right: 3%;
+}
+.section3 .section3-CenterBlock , .section3 .section3-RightBlock
+{
+	width: 25%;
+}
+
+.section4 
+{
+	padding: 0 0 50px 0;
+}
+
+.section4 .section4-container-main
+{
+	text-align: center;
+}
+.section4 .section4-container h1
+{
+	font: 30px/50px "Myriad Pro", "Arial";
+	
+}
+
+
+.section4 .section4-container p
+{
+	font: 16px/16px "Myriad Pro" , "Arial";
+
+	
+}
+
+.section4 .section4-container hr
+{
+	background: #f6dd3d;
+	width: 55px;
+	height: 4px;
+	
+}
+
+.section5
+{
+	
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.section5 .section5-blocks
+{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	margin: 0 -1%;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.section5 .section5-bloks__block 
+{
+	width: 17%;
+	border: 3px solid #d7d7d7;
+	background: #f1f1f1;
+	text-align: center;
+	margin: 0 1%;
+	
+}
+
+.section5 .section5-bloks__block img
+{
+	padding: 19px 0;
+}
+
+
+
+
+.section5 .section5-bloks__block  h1 , .section5 .section5-bloks__block  h2
+{
+	font: 16px/16px "Myriad Pro";
+	font-weight: bold;
+	
+}
+
+.section5 .section5-bloks__block hr
+{
+	background: #f6dd3d;
+	width: 75%;
+	height: 2px;
+	
+}
+
+
+.section6
+{
+	padding-top: 100px;
+}
+
+
+
+.section6 .section6-MainBlock
+{
+	width: 650px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border: 3px solid #ffdc4f;
+	margin: 0 auto;
+	position: relative;
+}
+
+.section6 .MainBlock-QuestionMessage
+{
+	text-align: center;
+	font: 30px/30px "Myriad Pro" , "Arial";
+	position: absolute;
+	top: -30%;
+	left: 50%;
+	margin-left: -150px;
+	width: 300px;
+	background: #fff;
+	z-index: 100;
+	padding-top: 66px;
+	
+}
+
+.section6 .MainBlock-ColumnQuestion
+{
+	width: 70%;
+	margin: 0 auto;
+	padding: 63px 0 0 0;
+}
+
+.section6 .MainBlock-ColumnQuestion__buttons
+{
+	width: 100%;
+	
+	padding: 25px 0 50px 0;
+}
+
+.section6 .MainBlock-ColumnQuestion__buttons button
+{
+	width: 212px;
+	padding: 15px 10px;
+	background: #ffdc4f;
+	font: 16px/16px "Myriad Pro" , "Arial";
+	color: #1f1f1f;
+	font-weight: bold;
+	border: none;
+}
+
+.section6 .MainBlock-ColumnQuestion__buttons button:last-child
+{
+	margin-left: 22px;
+}
+
+.section6 .MainBlock-ColumnQuestion #ColumnQuestion
+{
+	width: 100%;
+	height: 100px;
+	background: #f1f1f1;
+	color: #1f1f1f;
+	border: none;
+	resize: none;
+}
+
+footer
+{
+	margin-top: 53px;
+	padding: 27px 0 40px 0;
+	background: #1f1f1f;
+	color: #ffffff;
+	border-bottom: 1px solid #fff;
+}
+
+footer .footer-Blocks
+{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	
+}
+
+footer .footer-Block
+{
+	display: flex;
+	flex-direction: column;
+	padding: 0 0 20px 0;
+}
+
+footer .footer-Block a
+{
+	color: #fff;
+	padding: 5px 0;
+}
+
+footer .footer-copyright
+{
+	border-top: 1px solid #4e4e4e;
+}
+
+footer .block .item
+{
+	background: orange;
+	margin: 10px;
+}
+
+footer .block > .item
+{
+	background: green;
+}
+
+footer .block .item > .book
+{
+	background: blue;
+}
+
+
+
+
+@media screen and (max-width:775px)
+{
+	
+	
+	.section2 .MainBlock-Navigation
+	{
+		flex-direction: column;
+	}
+	
+	.section2 .MainBlock
+	{
+	padding: 30px 0;
+	}
+	
+
+    .section2 .MainBlock-Navigation a
+	{
+		text-align: left;
+		display: none;
+	}
+	
+	.section2 .MainBlock-Navigation a[data-item="0"]
+	{
+	display: block;
+	}
+	
+	.section2 .MainBlock .MainBlock-Title
+	{
+		font-size: 30px;
+	}
+	
+	.section3 .section3-blocks
+	{
+		flex-direction: column;
+	}
+	
+	.section3 .section3-CenterBlock
+	{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	
+	.section3 .section3-LeftBlock , .section3 .section3-CenterBlock , .section3 .section3-RightBlock
+	{
+		width: 100%;
+	}
+	
+	.section4
+	{
+		padding: 0 0 15px 0;
+	}
+	
+	.section4 .section4-container p 
+	{
+		font-size: 12px;
+	}
+	
+	.section4 .section4-container h1 
+	{
+		font-size: 20px;
+	}
+	
+	.section5 .section5-blocks
+    {
+		
+		flex-direction: column;
+		
+    }
+
+	.section5 .section5-bloks__block 
+	{
+		width: 90%;
+		margin: 3% auto;
+
+	}
+	
+	.section6 .section6-MainBlock
+	{
+	width: 100%;
+	border: 3px solid #ffdc4f;
+	margin: 0 auto;
+	position: relative;
+	}
+	
+	.section6 .MainBlock-ColumnQuestion__buttons button
+	{
+		width: 100%;
+	}
+	
+	.section6 .MainBlock-ColumnQuestion__buttons button:last-child
+	{	
+	margin-left: 0;
+	margin-top: 10px;	
+	}
+	
+	.section6 .MainBlock-QuestionMessage
+	{
+	top: -25%;
+	
+	}
+	
+	.section6 .MainBlock-ColumnQuestion
+	{
+
+	padding: 50px 0 0 0;
+	}
+	
+	.section6 .MainBlock-QuestionMessage 
+	{
+    font: 21px/30px "Myriad Pro" , "Arial";  
+    left: 50%;
+    margin-left: -115px;
+    width: 230px;
+	}
+	
+	footer .footer-Block a
+	{
+		font-size: 11px;
+	}
+	
+	.section2 .MainBlock-Navigation a
+	{
+		font-size: 20px;
+	}
+	
+	
+}
+
+@media screen and (max-width:575px)
+{
+	.section1-container
+	{
+		flex-direction: column;
+	}
+	
+	.section1-container .NavClass a , .section1-container .NavClass span
+	{
+	text-align: center;
+	
+	}
+	
+	.section1-container .NavClass
+	{
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.section1-container .NavClass span , .section1-container .NavClass a
+	{
+		margin-right: 0;
+	}
+	.Header .RightBlock a 
+	{
+		font-size: 9px;
+	}
+	
+	footer .footer-Block a
+	{
+		font-size: 8px;
+	}
+
+
+
+}
+
